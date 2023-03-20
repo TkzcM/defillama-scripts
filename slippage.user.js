@@ -40,7 +40,7 @@ const SLIPPAGE_VALUE = '0.05';
         console.log(added_node);
         if (added_node.innerHTML.includes("Custom")) {
           console.log("slippage has been added");
-          var input = document.getElementsByTagName("input")[5];
+          var input = document.getElementsByTagName("input")[4];
           if (input.placeholder == "Custom") {
             setNativeValue(input, SLIPPAGE_VALUE);
           }
